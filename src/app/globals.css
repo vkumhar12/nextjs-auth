@@ -25,3 +25,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.loading-spinner {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  animation: spin 2s linear infinite; /* Apply the spinning animation */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
